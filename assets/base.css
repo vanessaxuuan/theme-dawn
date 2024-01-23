@@ -3109,6 +3109,38 @@ details-disclosure > details {
   font-weight: var(--font-body-weight-bold);
 }
 
+.icon-coffee {
+  width: 80%;
+  height: 80%;
+  animation: bob 1s infinite;
+}
+
+@keyframes bob {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.drop {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  background: #7a91a6;
+  border-radius: 51% 49% 48% 52% / 62% 44% 56% 38%;
+  opacity: 0.8;
+  border: 2px solid #565b61;
+}
+
 /* outline and border styling for Windows High Contrast Mode */
 @media (forced-colors: active) {
   .button,

@@ -1,0 +1,27 @@
+<div>{{ section.settings.textgoc }}</div>
+<img src="{{ section.settings.urlimg }}">
+{%- render 'icon-coffee' -%}
+<div class="drop">?</div>
+
+
+{% schema %}
+{
+  "name": "custom-coffee",
+  "settings": [
+    {
+      "type":"text",
+      "label":"text_pc",
+      "id":"textgoc"
+    },{
+      "type":"image_picker",
+      "label":"urlimg",
+      "id":"urlimg"
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.custom-liquid.presets.name"
+    }
+  ]
+}
+{% endschema %}

@@ -1,1 +1,131 @@
-{"sections":{"main":{"type":"main-page","settings":{"padding_top":28,"padding_bottom":28}},"featured_product_YJfi6P":{"type":"featured-product","blocks":{"text_d3zqP6":{"type":"text","settings":{"text":"{{ section.settings.product.vendor }}","text_style":"uppercase"}},"title_xMjdWD":{"type":"title","settings":{"heading_size":"h1"}},"price_zV7kWB":{"type":"price","settings":{}},"variant_picker_xmLLP3":{"type":"variant_picker","settings":{"picker_type":"button"}},"quantity_selector_GDyaqG":{"type":"quantity_selector","settings":{}},"buy_buttons_ryLfdp":{"type":"buy_buttons","settings":{"show_dynamic_checkout":true,"show_gift_card_recipient":true}},"share_XCbEzy":{"type":"share","settings":{"share_label":"Share"}}},"block_order":["text_d3zqP6","title_xMjdWD","price_zV7kWB","variant_picker_xmLLP3","quantity_selector_GDyaqG","buy_buttons_ryLfdp","share_XCbEzy"],"settings":{"product":"filter-1","color_scheme":"","secondary_background":false,"media_size":"medium","constrain_to_viewport":true,"media_fit":"contain","media_position":"left","image_zoom":"lightbox","hide_variants":false,"enable_video_looping":false,"padding_top":36,"padding_bottom":36}},"slideshow_DHmpVk":{"type":"slideshow","blocks":{"slide_kAPFUN":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/wooden-table-with-a-scale-and-pour-over-coffee.jpg","heading":"Filter","heading_size":"h2","subheading":"Tell your brand's story through images","button_label":"click here for more","link":"","button_style_secondary":false,"box_align":"middle-center","show_text_box":true,"text_alignment":"center","image_overlay_opacity":0,"color_scheme":"","text_alignment_mobile":"center"}},"slide_HRpBi6":{"type":"slide","settings":{"heading":"Image slide","heading_size":"h1","subheading":"Tell your brand's story through images","button_label":"Button label","link":"","button_style_secondary":false,"box_align":"middle-center","show_text_box":true,"text_alignment":"center","image_overlay_opacity":0,"color_scheme":"","text_alignment_mobile":"center"}}},"block_order":["slide_kAPFUN","slide_HRpBi6"],"settings":{"layout":"full_bleed","slide_height":"medium","slider_visual":"counter","auto_rotate":false,"change_slides_speed":5,"image_behavior":"none","show_text_below":true,"accessibility_info":"Slideshow about our brand"}}},"order":["main","featured_product_YJfi6P","slideshow_DHmpVk"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_with_text_Mw839J": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_zz7Lip": {
+          "type": "heading",
+          "settings": {
+            "heading": "TEST HERE",
+            "heading_size": "h1"
+          }
+        },
+        "text_de9e4b": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_AFLgNw": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_zz7Lip",
+        "text_de9e4b",
+        "button_AFLgNw"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_LHRPtT": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<ul>hi123<\/ul>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "slideshow_DHmpVk": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_kAPFUN": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wooden-table-with-a-scale-and-pour-over-coffee.jpg",
+            "heading": "Filter",
+            "heading_size": "h2",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "click here for more",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_HRpBi6": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_kAPFUN",
+        "slide_HRpBi6"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "custom-coffee":{
+      "type":"custom-coffee",
+      "settings":{}
+    }
+  },
+  "order": [
+    "main",
+    "custom-coffee",
+    "image_with_text_Mw839J",
+    "custom_liquid_LHRPtT",
+    "slideshow_DHmpVk"
+  ]
+}
