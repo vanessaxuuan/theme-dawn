@@ -119,11 +119,16 @@
     "custom-coffee":{
       "type":"custom-coffee",
       "settings":{}
+    },
+    "animated-slider":{
+      "type":"animated-slider",
+      "settings":{}
     }
   },
   "order": [
     "main",
     "custom-coffee",
+    "animated-slider",
     "image_with_text_Mw839J",
     "custom_liquid_LHRPtT",
     "slideshow_DHmpVk"
